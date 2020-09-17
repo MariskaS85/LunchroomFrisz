@@ -10,6 +10,10 @@ body {
     background: url("images/Logo_Frisz.jpg");
 }
 
+#homephoto {
+    width: 100%;
+    background-color: #789e95;
+}
 section {
     margin-bottom: 50px;
 }
@@ -20,7 +24,6 @@ section {
 
 #hero-img {
     background: url("images/behang.png");
-    height: 300px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,10 +35,12 @@ section {
 .hero-text {
   text-align: center;
   position: relative;
-  top: 20px;
-  left: 20px;
-  right: 20%;
+  top: 10px;
+  bottom: 10px;
   background-color: rgba(255,255,255, 0.8);
+}
+#menukaart {
+    width: 100%;
 }
 
 h1 {
@@ -46,7 +51,7 @@ h2 {
     font-size: 1.5rem;
     color: #000000;
     text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 0.6);
-
+margin: 20px;
 }
 
 #photo {
@@ -80,4 +85,5 @@ h2 {
     border-radius: 50%;
     background: url("images/Logo_Frisz.jpg");
     content: center;
+    position: relative;
 }
