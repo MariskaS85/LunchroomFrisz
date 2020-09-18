@@ -33,7 +33,7 @@ section {
 }
 
 #menu-voor-img {
-   background-color: #789e95;
+   background: url("images/behang.png");
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,9 +58,6 @@ section {
 }
 #menukaart {
     width: 100%;
-}
-#menukaart:hover {
-    cursor: zoom-in;
 }
 
 h1 {
