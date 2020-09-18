@@ -27,6 +27,9 @@
                     <a class="nav-link" href="#hero_img">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="#menukaart_voor">Menukaart</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#google_maps">Locatie</a>
                 </li>
                 <li class="nav-item">
@@ -38,13 +41,19 @@
     </header>
 <section>
     <div>
-        <div id="hero-img">
-            <div class="hero-text text-center text-wrap">
+        <div id="hero-img" class="container">
+            <div class="row">
+                <div class="text-center text-wrap col-sm-6" id="why">
+                <img id="homephoto" src="assets/images/home.PNG" class="w3-round w3-image w3-opacity-min">
+            </div>
+            <div class="hero-text text-center text-wrap col-6">
                 <h2>
-                Lunchroom Frisz <br><br> Hoofdstraat 2 in Best <br><br> open van dinsdag t/m zaterdag van 09.30 tot 17.00 uur<br><br>
+                Lunchroom Frisz <br><br> Hoofdstraat 2 in Best<br><br> open van dinsdag t/m zaterdag van 09.30 tot 17.00 uur<br><br>
 
-                Reserveer op 0499-750703
+                Reserveer op 0499-750703 
                 </h2> 
+            </div>
+            
             </div>
         </div>
     </div>
@@ -53,29 +62,43 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col" id="why">
-                <img id="homephoto" src="assets/images/home.PNG" class="w3-round w3-image w3-opacity-min">
+            
+            <div>
+                <p class="col-sm-6 ">We houden ontzettend van (puur) eten en gezelligheid. Eten moet voor ons heerlijk vers en gezond zijn, een werkelijk feestje! 
+                    Het voormalige kantoorpand is omgetoverd tot een mooie ruimte met veel ambiance. </p>
             </div>
-            <div class="col">
-            <p>We houden ontzettend van (puur) eten en gezelligheid. Eten moet voor ons heerlijk vers en gezond zijn, een werkelijk feestje! 
-Het voormalige kantoorpand is omgetoverd tot een mooie ruimte met veel ambiance. We serveren heerlijke koffie, verse yoghurtontbijtjes, sapjes, smoothies maar je kan hier ook neerstrijken om te genieten van soep, salades, kleine warme lunchgerechten of een andere keuze maken uit ons menukaart. 
-Kom gezellig de sfeer proeven, de koffie staat klaar😊! <br><br>
-Hartelijk groet, team lunchroom Frisz</p>
+            <div>
+                <p class="col-sm-12">We serveren heerlijke koffie, verse yoghurtontbijtjes, sapjes, smoothies maar je kan hier ook neerstrijken om te genieten van soep, salades, kleine warme lunchgerechten of een andere keuze maken uit ons menukaart. 
+                     Kom gezellig de sfeer proeven, de koffie staat klaar😊!<br><br>
+                     Hartelijk groet, team lunchroom Frisz</p>
             <a><img id="logo_tekst" src="assets/images/Logo_Frisz.jpg"></img></a>
             </div>
         </div>
     </div>
 </section>
 
-<section id="menukaart">
+<section id="menukaart_voor">
     <div>
-        <div id="hero-img">
-            <div class="hero-text text-center text-wrap">
-                <img id="menukaart" src="assets/images/FRISZ_Menu_A3_2020-2-2.png"> </img> 
+        <div id="menu-voor-img">
+            <div class="hero-text text-center">
+                <img id="menukaart" src="assets/images/FRISZ_Menu_A3_2020-2-2.png"></img>  
             </div>
         </div>
     </div>
 </section>
+
+<section id="menukaart_achter">
+    <div>
+        <div id="menu-achter-img">
+            <div class="hero-text text-center">
+                <img id="menukaart" src="assets/images/FRISZ_Menu_A3_2020-2-1.png"></img>  
+            	<div id="preview" onmousemove="zoomIn(event)"></div>
+            </div>
+		</div>
+        </div>
+    </div>
+</section>
+
 <section id="google_maps">
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9932.142807498405!2d5.395126!3d51.512561!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x70e61742632ee7d6!2sLunchroom%20Frisz!5e0!3m2!1snl!2snl!4v1600266405777!5m2!1snl!2snl" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </section> 
@@ -83,16 +106,26 @@ Hartelijk groet, team lunchroom Frisz</p>
 
 
 
-<section id="photo">
-        <div class="w3-margin-16">
-            <a href="assets/images/binnen_hoekje.jpg"> <img src="assets/images/binnen_hoekje.jpg"></a>
-            <img src="assets/images/collage.jpg" href="assets/images/collage.jpg">
-            <img src="assets/images/droogbloem.jpg" href="assets/images/droogbloem.jpg">
-            <img src="assets/images/kado_taart.jpg" href="assets/images/kado_taart.jpg">
-            <img src="assets/images/koffie_taart.jpg">
-            <img src="assets/images/koffies.jpg">
-            <img src="assets/images/voorkant.jpg">
+<section id="photo" class="row">
+        <div class="col">
+                <a href="#" class="sfeer"><img src="assets/images/collage.jpg" style="width: 200px;"></a>
+                <a href="#" class="sfeer"><img src="assets/images/droogbloem.jpg" style="width: 200px;"></a>
+                <a href="#" class="sfeer"><img src="assets/images/kado_taart.jpg" style="width: 200px;"></a>
+                <a href="#" class="sfeer"><img src="assets/images/koffie_taart.jpg" style="width: 200px;"></a>
+                <a href="#" class="sfeer"><img src="assets/images/koffies.jpg" style="width: 200px;"></a>
+                <a href="#" class="sfeer"><img src="assets/images/voorkant.jpg" style="width: 200px;"></a>
+            </div>
         </div>
+        <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <img src="" class="imagepreview">
+      </div>
+    </div>
+  </div>
+</div>
         </section>
     <footer class="footer">
         <a href="https://www.persumer.com/">Website: Persumer</a>

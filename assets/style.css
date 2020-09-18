@@ -23,7 +23,7 @@ section {
 }
 
 #hero-img {
-    background: url("images/behang.png");
+    background: url("images/terras.jpeg");
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,15 +32,35 @@ section {
     padding: 50px;
 }
 
+#menu-voor-img {
+   background-color: #789e95;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 20px;
+}
+
+#menu-achter-img {
+    background: url("images/behang.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10px;
+}
+
 .hero-text {
   text-align: center;
   position: relative;
-  top: 10px;
-  bottom: 10px;
   background-color: rgba(255,255,255, 0.8);
 }
 #menukaart {
     width: 100%;
+}
+#menukaart:hover {
+    cursor: zoom-in;
 }
 
 h1 {
@@ -64,6 +84,12 @@ margin: 20px;
 #photo img {
     width: 100%;
     padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.sfeer {
+    width: 100px;
 }
 
 .footer {
@@ -86,4 +112,54 @@ margin: 20px;
     background: url("images/Logo_Frisz.jpg");
     content: center;
     position: relative;
+}
+
+
+/* ---------------------------------------------- Menu zoom */
+
+#preview{
+	margin-top: 10px;
+	border:1px solid black;
+	width:50px;
+	height:50px;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menukaart{
+	text-align: center;
+}
+#menukaart img {	
+	margin: 10px;
+	display: block;
+	 border: 2px solid #6A6462;
+}
+#menukaart img:hover {
+	 cursor: zoom-in;
+	 border: 0;
+	 -moz-box-shadow:2px 2px 7px 2px rgba(130,130,130,1),-1px -1px 7px 2px rgba(130,130,130,1);
+	-webkit-box-shadow: 2px 2px 7px 2px rgba(130,130,130,.7),-1px -1px 7px 2px rgba(130,130,130,1);
+	box-shadow: 2px 2px 7px 2px rgba(130,130,130,.7),-2px -2px 7px 2px rgba(130,130,130,1);
+}
+@media screen and (max-width: 767px){
+	#samples img {
+		display: inline-block;
+	}
+}
+
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position:relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
 }
