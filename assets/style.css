@@ -1,6 +1,8 @@
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgba(120, 158, 146, 0.4);
+    text-align: center;
 }
 
 #logo {
@@ -9,21 +11,41 @@ body {
     border-radius: 50%;
     background: url("images/Logo_Frisz.jpg");
 }
+header {
+    margin-top: 75px;
+}
+#logo_tekst {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url("images/Logo_Frisz.jpg");
+    content: center;
+    position: relative;
+}
 
 #homephoto {
     width: 100%;
     background-color: #789e95;
 }
 section {
-    margin-bottom: 50px;
+    margin: 30px 0px 0px 0px;
 }
 
-#navbar {
-    background-color: #e3f2fd;
+
+
+/*  #front {
+    content: url("images/Terras3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height:100vh;
 }
+
+*/
 
 #hero-img {
-    background: url("images/Terras3.png");
+    background: url("images/hero.jpg");
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,6 +54,21 @@ section {
     height: 50%;
 }
 
+#hero-text-box {
+    height: 300px;
+    width: 300px;
+    font-size: 1.5rem;
+    padding-top: 40px;
+    padding-left: 40px;
+    background-color: rgba(120, 158, 146, 0.8);
+}
+
+.hero-text {
+  text-align: center;
+  background-color:  rgba(120, 158, 146, 0.8);
+}
+
+
 #menu-voor-img {
    background: url("images/behang.png");
     width: 100%;
@@ -39,7 +76,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 20px;
+    padding: 20px 0px 20px 20px;
 }
 
 #menu-achter-img {
@@ -51,64 +88,69 @@ section {
     padding: 10px;
 }
 
-.hero-text {
-  text-align: center;
-  position: relative;
-  background-color: rgba(255,255,255, 0.8);
-}
+
 #menukaart {
     width: 100%;
 }
 
-h1 {
-    font-size: 25.5vw;
+p {
+    font-size: 1rem;
+    text-align: justify;
 }
 
 h2 {
     font-size: 1.5rem;
     color: #000000;
     text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 0.6);
-margin: 20px;
-}
-
-#photo {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0px;
+    margin: 20px;
+    align-content: center;
 }
 
 #photo img {
     width: 100%;
-    padding: 3px;
-    border-radius: 5px;
+    padding: 5px 0px 0px 5px;
+    border-radius: 10%;
     cursor: pointer;
     transition: 0.3s;
 }
-.sfeer {
-    width: 100px;
-}
+
 
 .footer {
-   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
    background-color: #789e95;
    color: white;
    text-align: center;
-   height: 15px;
+   height: 20px;
 }
-#container {
+
+.titel {
+    align-content: center;
+    text-align: center;
+    padding-top: 75px;
 
 }
-#logo_tekst {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: url("images/Logo_Frisz.jpg");
-    content: center;
-    position: relative;
+
+h3 {
+    font-size: 1.5rem;
+    color: #000000;
+    text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 0.6);
+    margin: 20px;
+    align-content: center;
+}
+
+#button {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 10px;
+  cursor: pointer;
 }
 
 
