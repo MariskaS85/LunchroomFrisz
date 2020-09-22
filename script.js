@@ -13,6 +13,8 @@ function scrollFunction() {
     document.getElementById("header").style.fontSize = "90px";
   }
 }
+*/
+
 $(function() {
 		$('.sfeer').on('click', function() {
 			$('.imagepreview').attr('src', $(this).find('img').attr('src'));
@@ -20,7 +22,7 @@ $(function() {
 		});		
 });
 
-
+/*
 function zoomIn(event) {
   var pre = document.getElementById("preview");
   pre.style.visibility = "visible";
