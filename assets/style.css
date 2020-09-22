@@ -86,20 +86,12 @@ section {
     padding: 20px 20px 20px 20px;
 }
 
-#menu-achter-img {
-    background: url("images/behang.png");
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 10px;
-}
-
-
-#menukaart {
+#menukaart-small {
     width: 100%;
 }
-
+#menukaart-big {
+    width: 100%;
+}
 p {
     font-size: 1rem;
     text-align: left;
