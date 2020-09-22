@@ -1,3 +1,9 @@
+$(document).ready(function () {
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+});
+/* 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -33,3 +39,4 @@ function zoomOut() {
   var pre = document.getElementById("preview");
   pre.style.visibility = "hidden";
 }
+*/
